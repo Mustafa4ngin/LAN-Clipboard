@@ -1,0 +1,8 @@
+{
+	auto_https disable_redirects
+}
+
+https://10.103.146.193:8444 {
+	tls internal
+	reverse_proxy localhost:8765
+}
